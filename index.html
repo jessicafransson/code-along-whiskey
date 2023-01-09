@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whiskey Drop | Taste a new whiskey every month</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
@@ -18,15 +18,14 @@
             <div class="row d-none d-sm-block">
                 <div class="col-12">
                     <div class="site-wide-alert alert alert-warning">
-                        <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of
-                        6! <a href="">See here for more details</a>
+                        <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of
+                        6! <a href="">See here for details!</a>
                     </div>
                 </div>
             </div>
         </div>
         <nav class="navbar navbar-dark navbar-expand-sm">
-            <a href="/" class="navbar-brand">
-                Whiskey Drop</a>
+            <a href="/" class="navbar-brand">Whiskey Drop</a>
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +34,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
                     <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="">About</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -49,14 +48,14 @@
                         </div>
                     </li>
 
-                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a>
+                    </li>
                 </ul>
             </div>
             <div class="d-none d-md-block">
                 <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
                 <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
             </div>
-            <!--</div>-->
         </nav>
     </div>
     <div class="container-fluid callout-container">
@@ -71,15 +70,15 @@
                         <s class="d-none d-sm-inline">€19.99</s>
                         <span class="d-inline d-sm-none"><br></span>
                         <strong><mark>First one is free!</mark></strong></p>
-                    <p><button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign
-                            Up!</button></p>
-                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink
+                    <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign
+                        Up!</button>
+                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink
                             responsibly.</small></p>
                 </section>
             </div>
         </div>
+        <!-- /.callout -->
     </div>
-    <!-- /.callout -->
 
     <!-- Quotes -->
     <div class="container-wrapper">
@@ -101,8 +100,7 @@
                                 <blockquote class="blockquote">
                                     <p>I've been introduced to more than 10 great international whiskeys I never knew
                                         about.</p>
-                                    <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite>
-                                    </footer>
+                                    <p>- Jane Doe</p>
                                 </blockquote>
                             </div>
                         </div>
@@ -115,17 +113,16 @@
                             <div class="media-body">
                                 <blockquote class="blockquote">
                                     <p>I haven't been sober for months!</p>
-                                    <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite>
-                                    </footer>
+                                    <p>- Jane Doe</p>
                                 </blockquote>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <!-- /.quotes -->
         </div>
     </div>
-    <!-- /.quotes -->
 
     <!-- Features -->
     <div class="container-wrapper container-wrapper--red">
@@ -141,7 +138,7 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="feature">
                             <h3><i class="fas fa-gift d-none d-sm-block"></i> Feature 1 <span
-                                    class="badge badge-success">New!</span></h3>
+                                    class="badge badge-success">NEW!</span></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                 ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -168,9 +165,9 @@
                     </div>
                 </div>
             </section>
+            <!-- /.features -->
         </div>
     </div>
-    <!-- /.features -->
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
@@ -205,6 +202,103 @@
             </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="container-wrapper">
+        <div class="container quotes-container content-container">
+            <section class="footer">
+                <div class="row">
+                    <div class="col-12 page-header mb-4">
+                        <h2 class="text-uppercase">Stay in touch:</h2>
+                        <hr class="block-divider block-divider--short">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h3>Social</h3>
+                        <p>Keep up to date with all our latest offers</p>
+                        <a href="#" target="_blank"><i class="fab fa-facebook-square"></i> Follow us on Facebook!</a>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h2>Subscribe!</h2>
+                        <p>Get exclusive offers and discount codes by subscribing to our monthly newsletter</p>
+                        <!-- Begin Mailchimp Signup Form -->
+                        <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet"
+                            type="text/css">
+                        <style type="text/css">
+                            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                        </style>
+                        <div id="mc_embed_signup">
+                            <form
+                                action="https://facebook.us9.list-manage.com/subscribe/post?u=403c7a62c1210f35ea52962a9&amp;id=a6acd86c7e&amp;f_id=00d20ce1f0"
+                                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                                class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+
+                                    <div class="indicates-required"><span class="asterisk">*</span> indicates required
+                                    </div>
+                                    <div class="mc-field-group">
+                                        <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+                                        </label>
+                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                                            required>
+                                        <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                                    </div>
+                                    <div id="mce-responses" class="clear foot">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input
+                                            type="text" name="b_403c7a62c1210f35ea52962a9_a6acd86c7e" tabindex="-1"
+                                            value=""></div>
+                                    <div class="optionalParent">
+                                        <div class="clear foot">
+                                            <input type="submit" value="Subscribe" name="subscribe"
+                                                id="mc-embedded-subscribe" class="button">
+                                            <p class="brandingLogo"><a href="http://eepurl.com/ihSJAb"
+                                                    title="Mailchimp - email marketing made easy and fun"><img
+                                                        src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <script type='text/javascript'
+                            src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                        <script type='text/javascript'>
+                            (function ($) {
+                                window.fnames = new Array();
+                                window.ftypes = new Array();
+                                fnames[0] = 'EMAIL';
+                                ftypes[0] = 'email';
+                                fnames[1] = 'FNAME';
+                                ftypes[1] = 'text';
+                                fnames[2] = 'LNAME';
+                                ftypes[2] = 'text';
+                                fnames[3] = 'ADDRESS';
+                                ftypes[3] = 'address';
+                                fnames[4] = 'PHONE';
+                                ftypes[4] = 'phone';
+                                fnames[5] = 'BIRTHDAY';
+                                ftypes[5] = 'birthday';
+                            }(jQuery));
+                            var $mcj = jQuery.noConflict(true);
+                        </script>
+                        <!--End mc_embed_signup-->
+                    </div>
+                    <div class="col-12">
+                        <a href="https://www.privacypolicygenerator.info/live.php?token=PJV7gSFwAdULXEvAntMZ5VqTBLU2lEQ0" target="_blank">Check out our privacy policy!</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <!-- /.footer -->
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

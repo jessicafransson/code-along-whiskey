@@ -4,8 +4,6 @@ body {
 
 /* Containers */
 
-.container-wrapper {}
-
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
@@ -48,10 +46,6 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
-.quotes-container {}
-
-.features-container {}
 
 /* Page headers */
 
@@ -194,4 +188,13 @@ body {
     font-weight: bold;
     margin-top: 10px;
     color: #f05f40;
+}
+
+/* Mailchimp */
+
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 600px;
 }
